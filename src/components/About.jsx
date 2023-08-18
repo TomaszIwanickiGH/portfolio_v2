@@ -1,11 +1,11 @@
 import Tilt from 'react-parallax-tilt'
 import { motion } from 'framer-motion'
 
-import { styles } from '../styles'
 import { services } from '../constants'
-import { fadeIn, textVariant } from '../utils/motion'
+import { fadeIn } from '../utils/motion'
 
 import { SectionWrapper } from '../hoc'
+import Heading from './Heading'
 
 const SerciceCard = ({ index, title, icon }) => {
   return (
@@ -37,11 +37,11 @@ const SerciceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <SectionWrapper>
-      <motion.div variants={textVariant()}>
-        <span id="about">&nbsp;</span>
-        <p className={`${styles.sectionSubText}`}>Introduction</p>
-        <h2 className={`${styles.sectionHeadText}`}>Overview.</h2>
-      </motion.div>
+      <Heading
+        id="about"
+        subtitle="Introduction"
+        title="Overview."
+      />
 
       <motion.p
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
