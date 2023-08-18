@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, threejs } from '../assets'
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, threejs, githubLogo, nextjs } from '../assets'
 
 export const navLinks = [
   {
@@ -56,6 +56,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: 'nextjs',
+    icon: nextjs,
+  },
+  {
     name: 'Redux Toolkit',
     icon: redux,
   },
@@ -64,28 +68,20 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
     name: 'MongoDB',
     icon: mongodb,
-  },
-  {
-    name: 'Three JS',
-    icon: threejs,
   },
   {
     name: 'git',
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'github',
+    icon: githubLogo,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'Node JS',
+    icon: nodejs,
   },
 ]
 
