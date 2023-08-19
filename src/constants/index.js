@@ -56,7 +56,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'nextjs',
+    name: 'Next JS',
     icon: nextjs,
   },
   {
@@ -72,11 +72,11 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: 'git',
+    name: 'Git',
     icon: git,
   },
   {
-    name: 'github',
+    name: 'Github',
     icon: githubLogo,
   },
   {
