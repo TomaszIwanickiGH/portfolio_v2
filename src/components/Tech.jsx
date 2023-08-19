@@ -18,6 +18,7 @@ const Tech = () => {
             key={technology.name}
           >
             <BallCanvas icon={technology.icon} />
+            <p className="text-center mt-2">{technology.name}</p>
           </div>
         ))}
       </div>
